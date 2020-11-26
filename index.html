@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <style>
+        
+    </style>
+
+</head>
+<body>
+
+    <h1>To do List</h1>
+
+    <header>
+        <div id = 'add_container'>
+            <input type="text" id = 'add_text_input' maxlength="40">
+            <div id = 'button_add'>
+                <img src="img/plus_icon.svg" alt="add" id = 'plus_icon' style="height: 40px;" onclick="addItem()">
+            </div>
+            <input type="checkbox" checked id = 'all_add_input' onclick="show_items(event)">
+            <label for="all_add_input" id = 'all_add_input_label'>Show finished tasks</label>
+        </div>
+    </header>
+
+    <main>
+        <div id = 'items_container'>
+
+
+           
+
+        </div>
+    </main>
+
+
+
+
+    <script src = 'script.js'></script>
+</body>
+</html>
